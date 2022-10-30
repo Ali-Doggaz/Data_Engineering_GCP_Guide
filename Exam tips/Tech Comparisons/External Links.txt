@@ -1,0 +1,14 @@
+1000 processing units = 1 node. For cloud spanner, you are charged by:
+(number of nodes * total hours of use), with number of nodes= num processing units/1000
+
+Spanner Vs BigQuery: https://hevodata.com/learn/spanner-vs-bigquery/#1
+Main points:
+- BigQuery is better for data analysis 
+- Cloud spanner supports transactions
+- Cloud spanner offers TrueTime, a very realiable global clock
+- Cloud Spanner is ACID compliant
+- BQ mainly charges you for queries (and storage, but mainly for the queries). Spanner
+charges you for storage and computing.
+- BQ has more integration with android studio, BI tools in general, Apache, etc...
+- Spanner has 
+
